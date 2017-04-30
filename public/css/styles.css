@@ -35,9 +35,14 @@ section {
   margin: 0 auto;
   position: relative;
   padding: 0 0 5em;
-  border-left: 1px solid #ececec;
-  border-right: 1px solid #ececec;
 }
+@media (min-width: 691px) {
+  section {
+    border-left: 1px solid #ececec;
+    border-right: 1px solid #ececec;
+  }
+}
+
 section#content {
   min-height: 100vh;
   background-color: #fff;
