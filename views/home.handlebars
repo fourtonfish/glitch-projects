@@ -1,0 +1,7 @@
+<div class="projects container-fluid">
+  {{#each projects}}
+  {{> project project_name=this.domain project_description=this.description project_id=this.id}}
+  {{/each}}
+</div>
+
+
